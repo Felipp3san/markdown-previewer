@@ -7,7 +7,6 @@ import { FaCompressAlt } from "react-icons/fa";
 import { Marked } from "marked";
 import { markedHighlight } from "marked-highlight";
 import hljs from 'highlight.js';
-import { FaC } from "react-icons/fa6";
 
 const marked = new Marked(
 	markedHighlight({
@@ -22,6 +21,7 @@ const marked = new Marked(
 
 marked.setOptions({
 	breaks: true,
+	gfm: true,
 });
 
 const Editor = ({ id, title, value, onChange, onClick, isExpanded, isHidden }) => {
