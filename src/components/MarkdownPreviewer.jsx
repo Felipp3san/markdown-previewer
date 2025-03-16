@@ -96,6 +96,17 @@ const MarkdownPreviewer = () => {
 		.then((response) => response.text())
 		.then((data) => setInput(data))
 		.catch(() => console.log("Failed to fetch initial markdown"))
+
+		const textArea = document.getElementById('editor');
+		textArea.addEventListener('keydown', function(event) {
+			if (event.key === 'Tab') {
+				event.preventDefault();
+				const cursorPos = textArea.selectionStart;
+				const value = textArea.value;
+				textArea.value = value.substring(0, cursorPos) + '  ' + value.substring(cursorPos);
+				textArea.selectionStart = textArea.selectionEnd = cursorPos + 2; // Move cursor after the tab
+			}
+		});
 	}, [])
 
 	useEffect(() => {
