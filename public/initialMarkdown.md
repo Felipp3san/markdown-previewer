@@ -21,7 +21,7 @@ Or _italic_.
 Or... wait for it... **_both!_**
 And feel free to go crazy ~~crossing stuff out~~.
 
-There's also [links](https://www.freecodecamp.org), and
+There's also [links](https://felippesantana.me), and
 > Block Quotes!
 
 And if you want to get really crazy, even tables:
@@ -41,4 +41,4 @@ And here. | Okay. | I think we get it.
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
 
-![freeCodeCamp Logo](https://cdn.ourcodeworld.com/public-media/articles/articleocw-598d8b864f7a9.png)
+![ReactMarkdown Logo](https://cdn.ourcodeworld.com/public-media/articles/articleocw-598d8b864f7a9.png)
