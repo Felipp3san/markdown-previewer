@@ -1,4 +1,6 @@
 .editor {
+	max-width: 600px;
+	width: 70vw;
   background-color: #a4a4a4;
   border: 1px solid #6C6C6C;
   color: #000000;
@@ -9,4 +11,10 @@
   margin-bottom: -5px;
   resize: vertical;
   outline: none;
+}
+
+@media only screen and (max-width: 600px){
+	.editor {
+		width: 90vw;
+	}	
 }

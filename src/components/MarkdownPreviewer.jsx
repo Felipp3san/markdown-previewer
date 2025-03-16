@@ -37,7 +37,7 @@ const Editor = ({ id, title, value, onChange, onClick, isExpanded, isHidden }) =
 					<FaExpandArrowsAlt className={styles.expandButton} id="editor-expand-btn" onClick={() => onClick(id)}/>
 				}
 			</div>
-			<textarea className={`${editorStyle.editor} ${isExpanded? styles.expanded : ""}`} type="text" id={id} rows={10} cols={70} value={value} onChange={onChange} />
+			<textarea className={`${editorStyle.editor} ${isExpanded? styles.expanded : ""}`} type="text" id={id} rows={10} value={value} onChange={onChange} />
 		</div>
 	)
 }
