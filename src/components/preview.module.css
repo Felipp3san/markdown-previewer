@@ -3,9 +3,9 @@
 	max-width: 800px;
 	min-height: 200px;
 	overflow: hidden;
-	background-color: #a4a4a4;
+  	background-color: rgb(200, 220, 240);
 	border: 1px solid #6C6C6C;
-	color: #000000;
+	color: rgb(28, 38, 48);
 	padding: 0px 1rem;
 	font-size: 1rem;
 	z-index: 0;
@@ -13,16 +13,16 @@
 }
 
 .preview h1 {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid rgb(28,38,48);
 }
 
 .preview h2 {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgb(28,38,48);
 }
 
 .preview blockquote {
 	margin-left: 1.5rem;
-  border-left: 2.5px solid #000000;
+  border-left: 2.5px solid rgb(28,38,48);
 }
 
 .preview blockquote p {
@@ -53,7 +53,7 @@
 }
 
 .preview table, th, td {
-	border: 2px solid black;
+	border: 2px solid rgb(28,38,48);
 	border-collapse: collapse;
     padding-left: 5px;
     padding-right: 5px;

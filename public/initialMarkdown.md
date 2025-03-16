@@ -6,7 +6,7 @@
 
 Heres some code, `<div></div>`, between 2 backticks.
 
-```
+```javascript
 // this is multi-line code:
 
 function anotherExample(firstLine, lastLine) {

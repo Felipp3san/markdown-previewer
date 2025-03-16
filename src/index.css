@@ -13,7 +13,8 @@
   
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: radial-gradient(circle at 50.3% 44.5%, rgb(116, 147, 179) 0%, rgb(62, 83, 104) 100.2%);
+  min-height: calc(100vh - 1rem);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

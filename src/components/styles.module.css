@@ -10,9 +10,20 @@
 	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.titleIconContainer {
+	display: flex;
+	place-items: center;
+	gap: 5px;
+}
+
+.headerIcon {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
 .header {
 	position: relative;
-	background-color: #4f4e4e;
+	background-color: rgb(40, 60, 80);
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -28,7 +39,7 @@
 	margin: 0;
 }
 
-.expandButton {
+.buttons {
 	cursor: pointer;
 }
 

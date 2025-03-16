@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
 .editor {
-	max-width: 600px;
-	width: 70vw;
-  background-color: #a4a4a4;
-  border: 1px solid #6C6C6C;
-  color: #000000;
+font-weight: 400; 
+  font-family: "Noto Sans Mono", monospace;
+  max-width: 600px;
+  width: 70vw;
+  background-color: rgb(200, 220, 240);
+  border: 1px solid #6c6c6c;
+  color: rgb(28, 38, 48);
   padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 0;
   border-top: none;
   margin-bottom: -5px;
@@ -13,8 +17,14 @@
   outline: none;
 }
 
-@media only screen and (max-width: 600px){
-	.editor {
-		width: 90vw;
-	}	
+.buttonsContainer {
+  display: flex;
+  place-items: center;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .editor {
+    width: 90vw;
+  }
 }
