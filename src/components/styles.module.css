@@ -1,0 +1,41 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	gap: 1rem;
+}
+
+.childContainer {
+	width: fit-content;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.header {
+	position: relative;
+	background-color: #4f4e4e;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	place-items: center;
+	padding: 5px 15px 5px 15px;
+	z-index: 1;
+	font-weight: bold;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	border-bottom: 1px solid black;
+}
+
+.header p {
+	margin: 0;
+}
+
+.expandButton {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+.expanded {
+	min-height: 100vh;
+}
