@@ -23,7 +23,7 @@ A simple and interactive Markdown Previewer built with React that allows users t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/markdown-previewer.git
+   git clone https://github.com/Felipp3san/markdown-previewer.git
    cd markdown-previewer
    ```
 
